@@ -181,7 +181,7 @@ def calc_length_of_vector(vector):
 
 
 def main():
-    RD = RankingDocument('Статьи из фактов.txt', 'Ножницы превратили прозу Гюстава Леружа в стихи Блеза Сандрара')
+    RD = RankingDocument('Статьи из фактов.txt', 'В годы правления Иди Амина из Уганды были изгнаны десятки тысяч азиатов')
     RD.RunSearch()
 
 

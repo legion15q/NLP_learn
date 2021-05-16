@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  16 MAY 2021 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  16 MAY 2021 16:14
 entering extended mode
 **./report.tex
 (report.tex
@@ -600,7 +600,7 @@ LaTeX Info: Redefining \nameref on input line 71.
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
-<emblema.pdf, id=12, 476.01839pt x 534.79799pt>
+<emblema.pdf, id=20, 476.01839pt x 534.79799pt>
 File: emblema.pdf Graphic file (type pdf)
 <use emblema.pdf>
 Package pdftex.def Info: emblema.pdf  used on input line 74.
@@ -610,38 +610,39 @@ Package pdftex.def Info: emblema.pdf  used on input line 74.
 {C:/Users/sur-p/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./emblema.pdf>]
  [2] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D41E0761AE9B68411D1F495277D9AFB7;280.
+(rerunfilecheck)             Checksum: A205EE4B73C22047E0651D9FE310586E;610.
  ) 
 Here is how much of TeX's memory you used:
- 11174 strings out of 479697
- 157478 string characters out of 2867132
- 451223 words of memory out of 3000000
- 28056 multiletter control sequences out of 15000+200000
- 420357 words of font info for 61 fonts, out of 3000000 for 9000
+ 11185 strings out of 479697
+ 157608 string characters out of 2867132
+ 453226 words of memory out of 3000000
+ 28062 multiletter control sequences out of 15000+200000
+ 420667 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,8n,85p,365b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx12
-00.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\labx1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\lasl1000.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\larm0800.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\lati1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\labi1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts
-/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\sur-p\AppData\Local\MiKT
-eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\sur-p\AppData\Local\
-MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\sur-p\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/sur-p/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sur-
-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
-ers/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on report.pdf (2 pages, 302094 bytes).
+ 80i,8n,85p,401b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt12
+00.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+bx1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcrm1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
+/dpi600\labx1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\lasl1000.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\larm0800.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts
+/pk/ljfour/lh/lh-t2a/dpi600\labi1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\sur-p\AppData\Local\MiKT
+eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\sur-p\AppData\Local\
+MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\sur-p\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\sur-p\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/sur-p/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
+sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
+:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on report.pdf (2 pages, 320553 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
