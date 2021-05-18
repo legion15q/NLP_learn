@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  16 MAY 2021 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  18 MAY 2021 18:27
 entering extended mode
 **./report.tex
 (report.tex
@@ -608,18 +608,48 @@ Package pdftex.def Info: emblema.pdf  used on input line 74.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>> [1
 
 {C:/Users/sur-p/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./emblema.pdf>]
- [2] (report.aux)
+ [2]
+Overfull \hbox (7.76785pt too wide) in paragraph at lines 313--313
+[]            \T2A/cmtt/m/n/12 self.term_lemmas_lst.append(self.morph.parse(i)[
+0].normal_form)[] 
+ []
+
+[3]
+Overfull \hbox (26.28833pt too wide) in paragraph at lines 313--313
+[]    \T2A/cmtt/m/n/12 # в данном случае tf - это количество упоминаний слова в
+ лемматизированном[] 
+ []
+
+[4]
+Overfull \hbox (20.11484pt too wide) in paragraph at lines 313--313
+[]        \T2A/cmtt/m/n/12 stop_words_lst = ['в', 'и', 'не', 'к', 'или', 'из', 
+'на', '€', 'был'][] 
+ []
+
+[5]
+Overfull \hbox (1.59436pt too wide) in paragraph at lines 313--313
+[]        \T2A/cmtt/m/n/12 sorted_map = self.make_ranking_docs_view(ranking_lst
+, docs_matrix)[] 
+ []
+
+[6]
+Overfull \hbox (26.28833pt too wide) in paragraph at lines 313--313
+[]    \T2A/cmtt/m/n/12 '¬ годы правлени€ »ди јмина из ”ганды были изгнаны дес€т
+ки тыс€ч азиатов')[] 
+ []
+
+[7] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: A205EE4B73C22047E0651D9FE310586E;610.
  ) 
 Here is how much of TeX's memory you used:
- 11185 strings out of 479697
- 157608 string characters out of 2867132
- 453226 words of memory out of 3000000
+ 11190 strings out of 479697
+ 157638 string characters out of 2867132
+ 462226 words of memory out of 3000000
  28062 multiletter control sequences out of 15000+200000
  420667 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,8n,85p,401b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,8n,85p,401b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt12
 00.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 bx1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
@@ -640,9 +670,9 @@ sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
 :/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb>
-Output written on report.pdf (2 pages, 320553 bytes).
+Output written on report.pdf (7 pages, 359568 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -32,8 +32,8 @@ class PrepareFile(object):
         self.text = self.text.replace('.', ' .')
         self.tokens_lst = list(filter(None, self.text.split()))
 
-        self.tokens_lst.insert(0, '<s>')
-        self.tokens_lst.append('</s>')
+        # self.tokens_lst.insert(0, '<s>')
+        # self.tokens_lst.append('</s>')
 
     def make_lemmas(self):
         for i in self.documents_matrix:
@@ -70,6 +70,7 @@ class WeightMatrix(object):
     def calc_tf(self):
         for i in self.lemmatized_documents_matrix:
             self.tf.append(Counter(i))
+        # print(self.tf)
 
     def calc_df(self):
         for i in self.lemmatized_documents_matrix:
@@ -108,6 +109,7 @@ class WeightMatrix(object):
             length = calc_length_of_vector(weight_matrix[:, i])
             for j in range(N):
                 self.weight_matrix[j][i] = self.weight_matrix[j][i] / length
+                weight_matrix[j][i] = weight_matrix[j][i] / length
 
 
 class VectorOfRequest(object):
@@ -117,11 +119,12 @@ class VectorOfRequest(object):
         request.lower()
         self.request_lst = request.split()
         self.morph = pymorphy2.MorphAnalyzer()
-        stop_words_lst = ['в', 'и', 'не', 'к', 'или', 'из', 'на']
+        stop_words_lst = ['в', 'и', 'не', 'к', 'или', 'из', 'на', 'я', 'был']
         for i in range(len(self.request_lst)):
-            if stop_words_lst.count(self.request_lst[i]) == 0:
+            if stop_words_lst.count(self.request_lst[i].lower()) == 0:
                 self.request_vector.append(self.morph.parse(self.request_lst[i])[0].normal_form)
         self.words_state_space = words_state_space_
+        # print(self.request_vector)
 
     def make_request_vector(self):
 
@@ -132,7 +135,7 @@ class VectorOfRequest(object):
                 self.normalized_request_vector.append(0)
         length = calc_length_of_vector(self.normalized_request_vector)
         for i in range(len(self.normalized_request_vector)):
-            self.normalized_request_vector[i] = self.normalized_request_vector[i]/length
+            self.normalized_request_vector[i] = self.normalized_request_vector[i] / length
         return self.normalized_request_vector
 
 
