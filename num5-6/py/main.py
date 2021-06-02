@@ -140,9 +140,10 @@ class VectorOfRequest(object):
 
 
 class RankingDocument(object):
-    def __init__(self, file_name_, request_):
+    def __init__(self, file_name_, lambda_, request_):
         self.file_name = file_name_
         self.request = request_
+        self.lambda_ = lambda_
 
     def RunSearch(self):
         file_collection = PrepareFile(self.file_name)
@@ -184,7 +185,7 @@ def calc_length_of_vector(vector):
 
 
 def main():
-    RD = RankingDocument('docs.txt', 'В годы правления Иди Амина из Уганды были изгнаны десятки тысяч азиатов')
+    RD = RankingDocument('docs.txt', 0.5, 'В годы правления Иди Амина из Уганды были изгнаны десятки тысяч азиатов')
     RD.RunSearch()
 
 
