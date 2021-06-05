@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  5 JUN 2021 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  5 JUN 2021 23:11
 entering extended mode
 **./report.tex
 (report.tex
@@ -600,7 +600,7 @@ LaTeX Info: Redefining \nameref on input line 71.
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
-<emblema.pdf, id=24, 476.01839pt x 534.79799pt>
+<emblema.pdf, id=12, 476.01839pt x 534.79799pt>
 File: emblema.pdf Graphic file (type pdf)
 <use emblema.pdf>
 Package pdftex.def Info: emblema.pdf  used on input line 74.
@@ -608,167 +608,43 @@ Package pdftex.def Info: emblema.pdf  used on input line 74.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>> [1
 
 {C:/Users/sur-p/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./emblema.pdf>]
-<1.png, id=46, 536.0025pt x 160.80075pt>
+<1.png, id=34, 541.42274pt x 368.577pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
 Package pdftex.def Info: 1.png  used on input line 77.
-(pdftex.def)             Requested size: 375.19919pt x 112.55974pt.
-<2.png, id=47, 492.6405pt x 132.495pt>
+(pdftex.def)             Requested size: 378.99333pt x 258.00212pt.
+<2.png, id=35, 538.4115pt x 364.9635pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
 Package pdftex.def Info: 2.png  used on input line 80.
-(pdftex.def)             Requested size: 344.846pt x 92.74585pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Overfull \hbox (40.56538pt too wide) in paragraph at lines 94--95
-\T2A/cmr/m/n/12 счи-та-ет €зы-ко-вые мо-де-ли до-ку-мен-тов и всей кол-лек-ции 
-и ве-ро-€т-но-сти $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OMS/cm
-sy/m/n/12 j\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; P\OT1/cmr/m/
-n/12 (\OML/cmm/m/it/12 t\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 )
-$\T2A/cmr/m/n/12 .
- []
-
-[2 <./1.png> <./2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-
- []
-
-
-Overfull \hbox (9.82661pt too wide) in paragraph at lines 98--100
-\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
-= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
-ttps : / / github . com / legion15q / sem2 / blob / master /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
-
-Overfull \hbox (9.82661pt too wide) in paragraph at lines 101--103
-\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
-= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
-ttps : / / github . com / legion15q / sem2 / blob / master /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
-
- []
-
-
-Overfull \hbox (9.82661pt too wide) in paragraph at lines 104--106
-\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
-= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
-ttps : / / github . com / legion15q / sem2 / blob / master /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-
-Overfull \hbox (9.82661pt too wide) in paragraph at lines 107--109
-\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
-= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
-ttps : / / github . com / legion15q / sem2 / blob / master /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
-
-Overfull \hbox (9.82661pt too wide) in paragraph at lines 110--112
-\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
-= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
-ttps : / / github . com / legion15q / sem2 / blob / master /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-Overfull \hbox (9.82661pt too wide) in paragraph at lines 113--115
-\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
-= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
-ttps : / / github . com / legion15q / sem2 / blob / master /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Overfull \hbox (10.71031pt too wide) in paragraph at lines 116--118
-\T2A/cmr/m/n/12 ссыл-ке []$\T2A/cmtt/m/n/12 https : / / github . com / legion15
-q / sem2 / blob / master / num5-[]6 / %D0 % 9E % D1 % 82 % D1 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
-
- []
-
-[3] [4]
-Overfull \hbox (7.76785pt too wide) in paragraph at lines 392--392
-[]            \T2A/cmtt/m/n/12 self.term_lemmas_lst.append(self.morph.parse(i)[
-0].normal_form)[] 
- []
-
-[5] [6] [7] [8] [9] (report.aux)
+(pdftex.def)             Requested size: 376.88548pt x 255.4727pt.
+ [2 <./1.png> <./2.png>] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: C70ECA0681193A960DBEB158C5982B5F;760.
+(rerunfilecheck)             Checksum: D41E0761AE9B68411D1F495277D9AFB7;280.
  ) 
 Here is how much of TeX's memory you used:
- 11204 strings out of 479697
- 157776 string characters out of 2867132
- 463254 words of memory out of 3000000
- 28074 multiletter control sequences out of 15000+200000
- 420667 words of font info for 62 fonts, out of 3000000 for 9000
+ 11173 strings out of 479697
+ 157466 string characters out of 2867132
+ 450223 words of memory out of 3000000
+ 28061 multiletter control sequences out of 15000+200000
+ 419201 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,8n,85p,429b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx12
-00.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\latt1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\labx1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\lasl1000.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\larm0800.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts
-/pk/ljfour/lh/lh-t2a/dpi600\labi1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\sur-p\AppData\Local\MiKT
-eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\sur-p\AppData\Local\
-MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\sur-p\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\sur-p\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/sur-p/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/
-sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on report.pdf (9 pages, 457274 bytes).
+ 80i,8n,85p,365b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx14
+40.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+sl1000.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
+0\larm0800.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/d
+pi600\lati1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\labi1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour
+/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/p
+k/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\sur-p\AppData\Local\MiKTeX
+\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk>
+Output written on report.pdf (2 pages, 378391 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
