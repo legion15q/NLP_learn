@@ -81,7 +81,86 @@
 \end{figure}
 \section{Решение}
 \subsection{Задача 1}
-
+\begin{equation*}
+\text { 1) } T P+F P=100 ;\quad TP=50; \quad
+F D =50; \quad FN = 10
+\end{equation*}
+\begin{equation*}
+\text { Precision }=\frac{50}{100}=\frac{5}{10}=\frac{1}{2}
+\end{equation*}
+\begin{equation*}
+\text{Recall}=\frac{50}{75}=\frac{2}{3} 
+\end{equation*}
+\begin{equation*}
+F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{1}{2} \cdot \frac{2}{3}}{\frac{1}{2}+\frac{2}{3}}=\frac{\frac{4}{6}}{\frac{7}{6}}=\frac{4}{7}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\text {Macro}F_{1}=\frac{F_{1 \text {score }}+Pr+Rec}{3}  = \text{(Среднее арифмитическое)} = \\ = 
+\frac{\frac{4}{7}+\frac{1}{2}+\frac{2}{3}}{3}=\frac{73}{126}=0,579
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\text { 2) Precision }=\frac{30}{40}=\frac{3}{4}  
+\end{equation*}
+\begin{equation*}
+\text{Recall}=\frac{30}{50}=\frac{3}{5} 
+\end{equation*}
+\begin{equation*}
+FD = 10; \quad FN = 50; \quad TP = 30
+\end{equation*}
+\begin{equation*}
+F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{3}{4} \cdot \frac{3}{5}}{\frac{3}{4}+\frac{3}{5}}=\frac{2}{3} = 0,66
+\end{equation*}
+\begin{equation*}
+\text {Macro}F_{1}=\dfrac{F_{1\text {score}} + Pr+R e c}{3}=\dfrac{\frac{2}{3}+\frac{3}{4}+\frac{3}{5}}{3}=\dfrac{7}{10}
+=0,7
+\end{equation*}
+\begin{equation*}
+\text {MacroPrecision}=\frac{P R_{1}+P R_{2}}{2}= \frac{\frac{3}{4}+\frac{1}{2}}{2}=\frac{5}{8}
+=0,625
+\end{equation*}
+\begin{equation*}
+\text { MacroRecall}=\dfrac{Rec_1 + Rec_2}{2}=\dfrac{\frac{2}{3}+\frac{3}{5}}{2}=\dfrac{19}{30}
+=0,63
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\text {MicroPrecision}=\frac{T P_{1}+TP_{2}}{T P_{1}+TP_{2}+F P_{1}+FD_{2}}  = & \dfrac{50+30}{50+30+50+10} =  \\
+=\frac{8}{14} =\frac{4}{7}=0,57
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\text {MicroRecall}=\frac{T P_{1}+TP_{2}}{T P_{1}+TD_{2}+F N_{1}+F N_{2}}=\dfrac{50+30}{50+30+10+50}= \\ = \text {MicroPrecision} = 0,57 = \text {Micro}F_1
+\end{aligned}
+\end{equation*}
 \subsection{Задача 2}
-
+\begin{equation*}
+\begin{array}{l}
+P\left(C_{1}\right)=\frac{N\left(C=C_{1}\right)}{N}=0,667 \\
+P\left( C_{2}\right)=\frac{N\left(C = C_{2}\right)}{N}=0,33 \\
+P\left(x_{1} \mid C_{1}\right)=0,25 ; \quad P\left(x_{1} \mid C_{2}\right)=0,11 \\
+P\left(x_{4} \mid C_{1}\right)=0,16 ; \quad  P\left(x_{4} \mid C_{2}\right)=0,22 \\
+P\left(x_{5} \mid C_{1}\right)=0,083 ; \quad P\left(x_{5} \mid C_{2}\right)=0,22
+\end{array}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+P(\tilde{C}_{1}) &=P\left(C_{1}\right) \cdot P\left(x_{1} \mid C_{1}\right) \cdot C\left(x_{4} \mid C_{1}\right) \cdot P\left(x_{5} \mid C_{1}\right)=\\
+&=0,667 \cdot 0,25 \cdot 0,16 \cdot 0,083=0,0022
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+P(\tilde{C}_{2}) &=P\left(C_{2}\right) \cdot P\left(x_{1} \mid C_{2}\right) \cdot P\left(x_{4} \mid C_{2}\right) \cdot P\left(x_5\mid C_{2}\right)=\\
+&=0,33 \cdot 0,11 \cdot 0,22 \cdot 0,22=0,0017
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{array}{l}
+\arg \max \left\{P(\tilde{C}_{1}), P(\tilde{C}_{2})\right\}=2 \Rightarrow 
+D_4\left(x_{1}, x_{4}, x_{5}\right): C_{2}
+\end{array}
+\end{equation*}
 \end{document}
