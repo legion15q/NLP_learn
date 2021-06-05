@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  5 JUN 2021 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  5 JUN 2021 22:38
 entering extended mode
 **./report.tex
 (report.tex
@@ -637,24 +637,101 @@ n/12 (\OML/cmm/m/it/12 t\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 )
 $\T2A/cmr/m/n/12 .
  []
 
-[2 <./1.png> <./2.png>] [3]
-Overfull \hbox (7.76785pt too wide) in paragraph at lines 297--297
+[2 <./1.png> <./2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+
+ []
+
+
+Overfull \hbox (9.82661pt too wide) in paragraph at lines 98--100
+\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
+= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
+ttps : / / github . com / legion15q / sem2 / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+
+Overfull \hbox (9.82661pt too wide) in paragraph at lines 101--103
+\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
+= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
+ttps : / / github . com / legion15q / sem2 / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+Overfull \hbox (9.82661pt too wide) in paragraph at lines 104--106
+\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
+= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
+ttps : / / github . com / legion15q / sem2 / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+
+Overfull \hbox (9.82661pt too wide) in paragraph at lines 107--109
+\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
+= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
+ttps : / / github . com / legion15q / sem2 / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+
+Overfull \hbox (9.82661pt too wide) in paragraph at lines 110--112
+\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
+= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
+ttps : / / github . com / legion15q / sem2 / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Overfull \hbox (9.82661pt too wide) in paragraph at lines 113--115
+\T2A/cmr/m/n/12 ќтвет €зы-ко-вой мо-де-ли ($\OML/cmm/m/it/12  \OT1/cmr/m/n/12 
+= 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9$\T2A/cmr/m/n/12 ): []$\T2A/cmtt/m/n/12 h
+ttps : / / github . com / legion15q / sem2 / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+[3]
+Overfull \hbox (7.76785pt too wide) in paragraph at lines 317--317
 []            \T2A/cmtt/m/n/12 self.term_lemmas_lst.append(self.morph.parse(i)[
 0].normal_form)[] 
  []
 
-[4] [5] [6] [7] (report.aux)
+[4] [5] [6] [7] [8] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 0E70217E74DFA8BC608516D05B3651C1;404.
  ) 
 Here is how much of TeX's memory you used:
- 11194 strings out of 479697
- 157667 string characters out of 2867132
+ 11195 strings out of 479697
+ 157673 string characters out of 2867132
  462251 words of memory out of 3000000
  28070 multiletter control sequences out of 15000+200000
  419848 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,8n,85p,429b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,8n,85p,429b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 latt1200.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
@@ -676,9 +753,9 @@ fb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr12.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb>
-Output written on report.pdf (7 pages, 421123 bytes).
+Output written on report.pdf (8 pages, 431461 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
