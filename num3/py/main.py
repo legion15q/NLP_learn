@@ -155,8 +155,10 @@ class RankingDocument(object):
         normalized_vector_of_request = vr.make_request_vector()
         ranking_lst = self.cos_similarity(normalized_vector_of_request, normalized_weight_matrix)
         sorted_map = self.make_ranking_docs_view(ranking_lst, docs_matrix)
+        k = 0
         for i in sorted_map:
-            print(i)
+            k+= 1
+            print(k, i)
 
     def cos_similarity(self, normalized_request_vector, normalized_document_matrix):
         n = len(normalized_document_matrix)

@@ -1,9 +1,5 @@
 import pymorphy2
 from collections import Counter
-import numpy as np
-from math import log10
-from math import sqrt
-from math import pow
 
 
 class PrepareFile(object):
@@ -53,24 +49,25 @@ class PrepareFile(object):
                 temp = i + 1
 
 
-class WeightMatrix(object):
-    def __init__(self, term_lemmas_lst_, lemmatized_documents_matrix_, documents_matrix_):
+class LanguageModel(object):
+    def __init__(self,  lemmatized_documents_matrix_, documents_matrix_, request_lst, lambda_):
         self.documents_matrix = documents_matrix_
         self.lemmatized_documents_matrix = lemmatized_documents_matrix_
-        self.term_lemmas_lst = term_lemmas_lst_
+        self.request_lst = request_lst
         self.tf = []
         self.df = []
-        self.weight_matrix = []
         self.calc_tf()
         self.calc_df()
-        self.calc_weight_matrix()
-        self.normalize_weight_matrix()
+        self.p_2 = []
+        self.p_1 = {}
+        self.lambda_ = lambda_
+        self.p = {}
 
     # в данном случае tf - это количество упоминаний слова в лемматизированном документе (предложении)
     def calc_tf(self):
         for i in self.lemmatized_documents_matrix:
             self.tf.append(Counter(i))
-        # print(self.tf)
+        #print(self.tf)
 
     def calc_df(self):
         for i in self.lemmatized_documents_matrix:
@@ -83,39 +80,73 @@ class WeightMatrix(object):
                 temp_lst.append({j: k})
             self.df.append(temp_lst)
 
-    # матрица терм --> вес терма в каждом документе
-    def calc_weight_matrix(self):
-        for i in self.term_lemmas_lst:
-            weight_for_doc = []
-            for j in range(len(self.lemmatized_documents_matrix)):
-                if self.lemmatized_documents_matrix[j].count(i) > 0:
-                    weight_for_doc.append(
-                        self.tf[j][i] * log10(len(self.term_lemmas_lst) / self.getElement(self.df[j], i)))
+    def calc_p_1(self):
+        lemmas_collection = {}
+        for i in self.lemmatized_documents_matrix:
+            for j in i:
+                if j in lemmas_collection:
+                    lemmas_collection[j] = lemmas_collection[j] + 1
                 else:
-                    weight_for_doc.append(0)
-            self.weight_matrix.append(weight_for_doc)
-            # self.weight_matrix.append({i: weight_for_doc})
+                    lemmas_collection[j] = 1
+        for k,v in lemmas_collection.items():
+            self.p_1[k] = v/len(lemmas_collection)
 
-    def getElement(self, lst, element):
-        for i in lst:
-            for k, v in i.items():
-                if k == element:
-                    return v
+        #print(self.p_1)
 
-    def normalize_weight_matrix(self):
-        weight_matrix = np.array(self.weight_matrix)
-        N = len(self.weight_matrix)
-        for i in range(len(weight_matrix[0])):
-            length = calc_length_of_vector(weight_matrix[:, i])
-            for j in range(N):
-                self.weight_matrix[j][i] = self.weight_matrix[j][i] / length
-                weight_matrix[j][i] = weight_matrix[j][i] / length
+
+
+
+    def calc_p_2(self):
+        for i in self.tf:
+            k = 0
+            temp_lst = []
+            for j in i:
+                temp_lst.append({j : list(i.values())[k]/len(i) })
+                k += 1
+            self.p_2.append(temp_lst)
+
+    def calc_p(self):
+        k = 0
+        for i in self.lemmatized_documents_matrix:
+            value = 1
+            for j in self.request_lst:
+                try:
+                    p_1 = self.p_1[j]
+                except:
+                    p_1 = 1/ (len(self.p_1)) # сглаживаем, если слова нет в коллекции
+                p_2 = p_1
+                if i.count(j) > 0:
+                    for m in range(len(self.p_2[k])):
+                        if list(self.p_2[k][m].keys()).count(j) > 0:
+                            p_2 = list(self.p_2[k][m].values())[0]
+                value = value*((1-self.lambda_)*p_1 + self.lambda_*p_2)
+            self.p[value] = tuple(self.documents_matrix[k])
+            k += 1
+
+
+    def find_prob_for_term(self, term):
+        for i in self.p_2:
+            for m in range(len(i)):
+                if list(i[m].keys()).count(term) > 0:
+                    return list(i[m].values())[0]
+
+
+
+    def get_result(self):
+        x = sorted(self.p.items(), key=lambda x: x[0], reverse=True)
+        k = 0
+        for i in x:
+            k +=1
+            print(k, i)
+
+
+
+
 
 
 class VectorOfRequest(object):
-    def __init__(self, request, words_state_space_):
+    def __init__(self, request):
         self.request_vector = []
-        self.normalized_request_vector = []
         request.lower()
         self.request_lst = request.split()
         self.morph = pymorphy2.MorphAnalyzer()
@@ -123,65 +154,29 @@ class VectorOfRequest(object):
         for i in range(len(self.request_lst)):
             if stop_words_lst.count(self.request_lst[i].lower()) == 0:
                 self.request_vector.append(self.morph.parse(self.request_lst[i])[0].normal_form)
-        self.words_state_space = words_state_space_
+
         # print(self.request_vector)
 
-    def make_request_vector(self):
 
-        for i in self.words_state_space:
-            if self.request_vector.count(i) > 0:
-                self.normalized_request_vector.append(1)
-            else:
-                self.normalized_request_vector.append(0)
-        length = calc_length_of_vector(self.normalized_request_vector)
-        for i in range(len(self.normalized_request_vector)):
-            self.normalized_request_vector[i] = self.normalized_request_vector[i] / length
-        return self.normalized_request_vector
 
 
 class RankingDocument(object):
     def __init__(self, file_name_, lambda_, request_):
         self.file_name = file_name_
-        self.request = request_
+        self.request_vector = VectorOfRequest(request_).request_vector
         self.lambda_ = lambda_
 
     def RunSearch(self):
         file_collection = PrepareFile(self.file_name)
         lemmatized_documents_matrix = file_collection.lemmatized_documents_matrix
         docs_matrix = file_collection.documents_matrix
-        term_lemmas_lst = file_collection.term_lemmas_lst
-        weight_matrix = WeightMatrix(term_lemmas_lst, lemmatized_documents_matrix, docs_matrix)
-        normalized_weight_matrix = weight_matrix.weight_matrix
-        vr = VectorOfRequest(self.request, term_lemmas_lst)
-        normalized_vector_of_request = vr.make_request_vector()
-        ranking_lst = self.cos_similarity(normalized_vector_of_request, normalized_weight_matrix)
-        sorted_map = self.make_ranking_docs_view(ranking_lst, docs_matrix)
-        for i in sorted_map:
-            print(i)
-
-    def cos_similarity(self, normalized_request_vector, normalized_document_matrix):
-        n = len(normalized_document_matrix)
-        ranking_lst = []
-        for i in range(len(normalized_document_matrix[0])):
-            sum_ = 0
-            for j in range(n):
-                sum_ += normalized_request_vector[j] * normalized_document_matrix[j][i]
-            ranking_lst.append(sum_)
-        return ranking_lst
-
-    def make_ranking_docs_view(self, ranking_lst, documents_matrix):
-        map_similarity_doc = {}
-        for i in range(len(documents_matrix)):
-            map_similarity_doc[ranking_lst[i]] = documents_matrix[i]
-        sorted_map_similarity_doc = sorted(map_similarity_doc.items(), key=lambda x: x[0], reverse=True)
-        return sorted_map_similarity_doc
+        language_model = LanguageModel(lemmatized_documents_matrix, docs_matrix, self.request_vector, self.lambda_)
+        language_model.calc_p_1()
+        language_model.calc_p_2()
+        language_model.calc_p()
+        language_model.get_result()
 
 
-def calc_length_of_vector(vector):
-    sum = 0
-    for i in vector:
-        sum += pow(i, 2)
-    return sqrt(sum)
 
 
 def main():
