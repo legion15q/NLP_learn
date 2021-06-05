@@ -180,7 +180,7 @@ class RankingDocument(object):
 
 
 def main():
-    RD = RankingDocument('docs.txt', 0.5, 'В годы правления Иди Амина из Уганды были изгнаны десятки тысяч азиатов')
+    RD = RankingDocument('docs.txt', 0.9, 'В годы правления Иди Амина из Уганды были изгнаны десятки тысяч азиатов')
     RD.RunSearch()
 
 
