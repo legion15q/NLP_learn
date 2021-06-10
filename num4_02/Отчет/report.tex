@@ -77,7 +77,39 @@
 \includegraphics[scale=0.67]{1.png}
 \end{figure} 
 
-\textbf{Полный ход решения доступен по ссылке:} \url{https://github.com/legion15q/sem2/blob/master/num4_02/%D0%9E%D1%82%D1%87%D0%B5%D1%82/vpQOxfVWcw8.jpg}
+\textbf{Полный ход решения доступен по ссылке:} \url{https://github.com/legion15q/sem2/blob/master/num4_02/%D0%9E%D1%82%D1%87%D0%B5%D1%82/o7Re5PuGPNQ.jpg}
 \section{Решение}
-
+1) Представим документы в виде векторов, элементами которых будут веса, вычисляемые по формуле:\\
+$$
+w_i = tf \cdot idf 
+$$
+\noindent где $idf = \log_{10} \dfrac{N}{df}$. Тогда:
+$$
+d_1 = (0.383, 0.43, 0.506, 0, ..., 0)
+$$
+$$
+d_2 = (0, 0, 0.506, 0.383, 0.383, 0, ..., 0)
+$$
+Представим запрос в виде вектора:
+$$
+q = 1, 0, 0, 1 , 0, 0, ..., 0)
+$$
+Нормируем вектора:
+$$
+d_{1_{norm}} = (0.499, 0.560, 0.66, 0, ..., 0)
+$$
+$$
+d_{2_{norm}} = (0, 0, 0.682, 0.516, 0.516, 0, ..., 0)
+$$
+$$
+q_{norm} = (\dfrac{1}{\sqrt{2}} , 0, 0, \dfrac{1}{\sqrt{2}}, 0, ..., 0)
+$$
+По формуле Роккио вычисляем модифицированный вектор запроса: ($\alpha = 0.7$, $\beta = 0.3$)
+$$
+q_m = \alpha q_0 + \beta \dfrac{1}{|D_r|}\sum_{d_j \in D_r} d_j - \gamma \dfrac{1}{|D_{nr}|}\sum _{d_j \in D_{nr}} d_j
+$$
+$$
+q_m = (0.6487, 0.168, 0.4026, 0.6548, 0.1548, 0,..., 0)
+$$
+\textbf{Полный ход решения доступен по ссылке:} \url{https://github.com/legion15q/sem2/blob/master/num4_02/%D0%9E%D1%82%D1%87%D0%B5%D1%82/o7Re5PuGPNQ.jpg}
 \end{document}

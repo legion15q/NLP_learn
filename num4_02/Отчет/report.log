@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  10 JUN 2021 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  10 JUN 2021 15:46
 entering extended mode
 **./report.tex
 (report.tex
@@ -613,14 +613,19 @@ File: 1.png Graphic file (type png)
 <use 1.png>
 Package pdftex.def Info: 1.png  used on input line 77.
 (pdftex.def)             Requested size: 388.1722pt x 259.85747pt.
- [2 <./1.png>] (report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[2 <./1.png>] [3] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41E0761AE9B68411D1F495277D9AFB7;280.
  ) 
 Here is how much of TeX's memory you used:
- 11176 strings out of 479697
- 157535 string characters out of 2867132
- 450223 words of memory out of 3000000
+ 11177 strings out of 479697
+ 157541 string characters out of 2867132
+ 452223 words of memory out of 3000000
  28060 multiletter control sequences out of 15000+200000
  420330 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -638,10 +643,19 @@ k/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX
 \fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\sur-p\AppData\Local\Mi
 KTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\sur-p\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk>
-Output written on report.pdf (2 pages, 308994 bytes).
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/sur-p/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sur-p/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
+rs/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on report.pdf (3 pages, 387125 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  47 words of extra memory for PDF output out of 10000 (max. 10000000)
 
