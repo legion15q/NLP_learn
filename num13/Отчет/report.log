@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  10 JUN 2021 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  10 JUN 2021 23:39
 entering extended mode
 **./report.tex
 (report.tex
@@ -614,12 +614,23 @@ File: 1.png Graphic file (type png)
 Package pdftex.def Info: 1.png  used on input line 77.
 (pdftex.def)             Requested size: 452.34688pt x 336.83614pt.
  [2 <./1.png>]
-Overfull \hbox (44.54349pt too wide) in paragraph at lines 81--187
+Overfull \hbox (44.54349pt too wide) in paragraph at lines 81--189
 [] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--189
+
+ []
+
+
+Overfull \hbox (14.07993pt too wide) in paragraph at lines 81--189
+\T2A/cmr/m/n/12 »сходный код до-сту-пен по ссыл-ке: []$\T2A/cmtt/m/n/12 https :
+ / / github . com / legion15q / sem2 / tree / master /
+ []
+
 [3]
-Overfull \hbox (44.8088pt too wide) in paragraph at lines 263--263
+Overfull \hbox (44.8088pt too wide) in paragraph at lines 265--265
 []                    \T2A/cmtt/m/n/12 p[i][j][k] = phi[i][j] * etta[j][k] / (p
 hi[i][0] * etta[0][k][] 
  []
@@ -629,13 +640,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 0E70217E74DFA8BC608516D05B3651C1;404.
  ) 
 Here is how much of TeX's memory you used:
- 11177 strings out of 479697
- 157504 string characters out of 2867132
- 475224 words of memory out of 3000000
- 28059 multiletter control sequences out of 15000+200000
+ 11178 strings out of 479697
+ 157522 string characters out of 2867132
+ 476224 words of memory out of 3000000
+ 28060 multiletter control sequences out of 15000+200000
  419511 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,14n,85p,365b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,14n,85p,365b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt12
 00.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 bx1440.pk> <C:\Users\sur-p\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
@@ -654,9 +665,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/s
 ur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on report.pdf (5 pages, 399251 bytes).
+Output written on report.pdf (5 pages, 401468 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
+ 402 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
