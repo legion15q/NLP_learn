@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  10 JUN 2021 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  10 JUN 2021 20:25
 entering extended mode
 **./report.tex
 (report.tex
@@ -618,7 +618,13 @@ File: 2.png Graphic file (type png)
 <use 2.png>
 Package pdftex.def Info: 2.png  used on input line 80.
 (pdftex.def)             Requested size: 351.0497pt x 196.10362pt.
- [2 <./1.png> <./2.png>] [3]
+
+Overfull \hbox (27.91133pt too wide) in paragraph at lines 84--86
+[]\T2A/cmr/m/n/12 ѕриведенный в при-ло-же-нии код (до-сту-пен по ссыл-ке: []$\T
+2A/cmtt/m/n/12 https : / / github . com / legion15q /
+ []
+
+[2 <./1.png> <./2.png>] [3]
 Overfull \hbox (1.59436pt too wide) in paragraph at lines 174--174
 []    \T2A/cmtt/m/n/12 A = ([0.0125, 0.3125, 0.3125, 0.3125, 0.0125, 0.0125, 0.
 0125, 0.0125],[] 
@@ -698,9 +704,9 @@ ur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
 .pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmr8.pfb><C:/Users/sur-p/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb>
-Output written on report.pdf (4 pages, 426921 bytes).
+Output written on report.pdf (4 pages, 428345 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
+ 404 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
