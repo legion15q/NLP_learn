@@ -86,7 +86,7 @@
 \subsection{Задача 1}
 \begin{equation*}
 \text { 1) } T P+F P=100 ;\quad TP=50; \quad
-F D =50; \quad FN = 10
+FP =50; \quad FN = 10
 \end{equation*}
 \begin{equation*}
 \text { Precision }=\frac{50}{100}=\frac{5}{10}=\frac{1}{2}
@@ -97,12 +97,7 @@ F D =50; \quad FN = 10
 \begin{equation*}
 F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{1}{2} \cdot \frac{2}{3}}{\frac{1}{2}+\frac{2}{3}}=\frac{\frac{4}{6}}{\frac{7}{6}}=\frac{4}{7}
 \end{equation*}
-\begin{equation*}
-\begin{aligned}
-\text {Macro}F_{1}=\frac{F_{1 \text {score }}+Pr+Rec}{3}  = \text{(Среднее арифмитическое)} = \\ = 
-\frac{\frac{4}{7}+\frac{1}{2}+\frac{2}{3}}{3}=\frac{73}{126}=0,579
-\end{aligned}
-\end{equation*}
+
 \begin{equation*}
 \text { 2) Precision }=\frac{30}{40}=\frac{3}{4}  
 \end{equation*}
@@ -110,14 +105,13 @@ F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{1}{2
 \text{Recall}=\frac{30}{50}=\frac{3}{5} 
 \end{equation*}
 \begin{equation*}
-FD = 10; \quad FN = 50; \quad TP = 30
+FP = 10; \quad FN = 50; \quad TP = 30
 \end{equation*}
 \begin{equation*}
 F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{3}{4} \cdot \frac{3}{5}}{\frac{3}{4}+\frac{3}{5}}=\frac{2}{3} = 0,66
 \end{equation*}
 \begin{equation*}
-\text {Macro}F_{1}=\dfrac{F_{1\text {score}} + Pr+R e c}{3}=\dfrac{\frac{2}{3}+\frac{3}{4}+\frac{3}{5}}{3}=\dfrac{7}{10}
-=0,7
+\text {Macro}F_{1}= \dfrac{1}{N}\sum_{i=0}^{N} F_{1_{score}} = \dfrac{1}{2}(\dfrac{2}{3} + \dfrac{4}{7}) = 0.61
 \end{equation*}
 \begin{equation*}
 \text {MacroPrecision}=\frac{P R_{1}+P R_{2}}{2}= \frac{\frac{3}{4}+\frac{1}{2}}{2}=\frac{5}{8}
@@ -162,8 +156,8 @@ P(\tilde{C}_{2}) &=P\left(C_{2}\right) \cdot P\left(x_{1} \mid C_{2}\right) \cdo
 \end{equation*}
 \begin{equation*}
 \begin{array}{l}
-\arg \max \left\{P(\tilde{C}_{1}), P(\tilde{C}_{2})\right\}=2 \Rightarrow 
-D_4\left(x_{1}, x_{4}, x_{5}\right): C_{2}
+\arg \max \left\{P(\tilde{C}_{1}), P(\tilde{C}_{2})\right\}=1 \Rightarrow 
+D_4\left(x_{1}, x_{4}, x_{5}\right) \in C_{1}
 \end{array}
 \end{equation*}
 \end{document}
