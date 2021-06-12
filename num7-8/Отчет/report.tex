@@ -98,6 +98,9 @@ FP =50; \quad FN = 10
 F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{1}{2} \cdot \frac{2}{3}}{\frac{1}{2}+\frac{2}{3}}=\frac{\frac{4}{6}}{\frac{7}{6}}=\frac{4}{7}
 \end{equation*}
 
+
+
+
 \begin{equation*}
 \text { 2) Precision }=\frac{30}{40}=\frac{3}{4}  
 \end{equation*}
@@ -121,17 +124,23 @@ F_{1 \text{score}} =\frac{2 \cdot Pr \cdot Rec}{Pr+Rec}=\frac{2 \cdot \frac{3}{4
 \text { MacroRecall}=\dfrac{Rec_1 + Rec_2}{2}=\dfrac{\frac{2}{3}+\frac{3}{5}}{2}=\dfrac{19}{30}
 =0,63
 \end{equation*}
+
 \begin{equation*}
 \begin{aligned}
-\text {MicroPrecision}=\frac{T P_{1}+TP_{2}}{T P_{1}+TP_{2}+F P_{1}+FD_{2}}  = & \dfrac{50+30}{50+30+50+10} =  \\
-=\frac{8}{14} =\frac{4}{7}=0,57
+\text {MicroRecall}=\frac{T P_{1}+TP_{2}}{T P_{1}+TP_{2}+F N_{1}+F N_{2}}=\dfrac{50+30}{50+30+10+50}=  0.64
 \end{aligned}
 \end{equation*}
+
 \begin{equation*}
 \begin{aligned}
-\text {MicroRecall}=\frac{T P_{1}+TP_{2}}{T P_{1}+TD_{2}+F N_{1}+F N_{2}}=\dfrac{50+30}{50+30+10+50}= \\ = \text {MicroPrecision} = 0,57 = \text {Micro}F_1
+\text {MicroPrecision}=\frac{T P_{1} + TP_2}{T P_{1} + TP_2 + FP_1 + F P_{2}}  = & \dfrac{50 + 30 }{50+ 50 + 10+30} =0.57
 \end{aligned}
 \end{equation*}
+
+\begin{equation*}
+\text {Micro}F_{1_{score}} = \dfrac{2Pr_{micro}  Rec_{micro}}{Pr_{micro}+Rec_{micro}} = 0.603
+\end{equation*}
+
 \subsection{Задача 2}
 \begin{equation*}
 \begin{array}{l}
@@ -160,4 +169,6 @@ P(\tilde{C}_{2}) &=P\left(C_{2}\right) \cdot P\left(x_{1} \mid C_{2}\right) \cdo
 D_4\left(x_{1}, x_{4}, x_{5}\right) \in C_{1}
 \end{array}
 \end{equation*}
+
+
 \end{document}
